@@ -11,7 +11,7 @@ class ViewModel1 {
 class ViewModel2 {
   constructor() {
     this.fullName = ko.computed(() => {
-      return state.name() + 'swag'
+      return state.name + 'swag'
     })
     this.updateTheProperty = () => {
       state.name('lit')
@@ -21,4 +21,3 @@ class ViewModel2 {
 
 ko.applyBindings(new ViewModel1())
 ko.applyBindings(new ViewModel2())
-

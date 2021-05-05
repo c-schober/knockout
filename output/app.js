@@ -16,7 +16,7 @@ var ViewModel2 = function ViewModel2() {
   _classCallCheck(this, ViewModel2);
 
   this.fullName = ko.computed(function () {
-    return state.name() + 'swag';
+    return state.name + 'swag';
   });
 
   this.updateTheProperty = function () {
