@@ -1,16 +1,13 @@
-name: Deploy Production
+
+name: Deploy
 
 on:
-  workflow_dispatch:
-      inputs:
-        Changes:
-          description: 'New Deployment Production'     
-          required: true
-          default: 'changes'
+  push:
+    branches: [ master ]
 
 jobs:
   build:
-  
+    
     runs-on: ubuntu-latest
 
     steps:
