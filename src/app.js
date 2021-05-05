@@ -11,10 +11,10 @@ class ViewModel1 {
 class ViewModel2 {
   constructor() {
     this.fullName = ko.computed(() => {
-      return state.someProperty() + 'swag'
+      return state.name() + 'swag'
     })
     this.updateTheProperty = () => {
-      state.someProperty('lit')
+      state.name('lit')
     }
   }
 }
