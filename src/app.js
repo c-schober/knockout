@@ -1,5 +1,5 @@
 const state = {
-  name: ko.observable('Yolo'),
+  name: ko.observable('Yolooo'),
 }
 
 class ViewModel1 {
