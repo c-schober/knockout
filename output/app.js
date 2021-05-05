@@ -23,3 +23,6 @@ var ViewModel2 = function ViewModel2() {
     state.someProperty('lit');
   };
 };
+
+ko.applyBindings(new ViewModel1());
+ko.applyBindings(new ViewModel2());

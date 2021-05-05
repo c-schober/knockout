@@ -18,3 +18,7 @@ class ViewModel2 {
     }
   }
 }
+
+ko.applyBindings(new ViewModel1())
+ko.applyBindings(new ViewModel2())
+
